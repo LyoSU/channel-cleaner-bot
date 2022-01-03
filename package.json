@@ -1,0 +1,33 @@
+{
+  "name": "ccleaner",
+  "version": "0.1.0",
+  "description": "Telegram channel cleaner bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyoSU/channel-cleaner-bot.git"
+  },
+  "author": "LyoSU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LyoSU/channel-cleaner-bot/issues"
+  },
+  "homepage": "https://github.com/LyoSU/channel-cleaner-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
