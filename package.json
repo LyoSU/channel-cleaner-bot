@@ -1,6 +1,6 @@
 {
   "name": "ccleaner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Telegram channel cleaner bot",
   "main": "index.js",
   "scripts": {

@@ -56,7 +56,7 @@ tgApi.client.on('update', async (update) => {
       chat_id: update.message.chat_id
     }).catch(console.error)
 
-    if (chat.type._ === 'chatTypeSupergroup') {
+    if (chat.type._ === 'chatTypeSupergroup' && chat.type.is_channel) {
       let membersCount = 0
 
       do {
